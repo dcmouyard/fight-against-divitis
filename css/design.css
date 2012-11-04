@@ -1,0 +1,306 @@
+body {
+  background-color: #00a6a6;
+  background-image: -moz-radial-gradient(50% 33%, ellipse cover, rgba(0,0,0,0), rgba(0,0,0,.5) 100%);
+  background-image: -ms-radial-gradient(50% 33%, ellipse cover, rgba(0,0,0,0), rgba(0,0,0,.5) 100%);
+  background-image: -o-radial-gradient(50% 33%, ellipse cover, rgba(0,0,0,0), rgba(0,0,0,.5) 100%);
+  background-image: -webkit-radial-gradient(50% 33%, ellipse cover, rgba(0,0,0,0), rgba(0,0,0,.5) 100%);
+  background-image: radial-gradient(50% 33%, ellipse cover, rgba(0,0,0,0), rgba(0,0,0,.5) 100%);
+  color: #fff;
+}
+
+a {
+  color: #bf311a;
+  text-decoration: none;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: Consolas, 'Lucida Console', 'Courier New', monospace, sans-serif;
+  font-size: 75%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th,
+legend,
+caption {
+  font-family: Futura, sans-serif;
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3 {
+  text-shadow: #000 0 0 2px, rgba(0,0,0,.4) 0 0 30px;
+}
+
+.slide {
+  background-color: #eee;
+  border: 1px solid rgba(0,0,0,.5);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,.2);
+  color: #333;
+  display: block;
+  height: 700px;
+  padding: 32px;
+  width: 900px;
+}
+
+.reverse,
+.reverse cite {
+  color: #eee;
+}
+.reverse.slide {
+  background-color: #333;
+}
+
+.slide h1,
+.slide h2,
+.slide h3 {
+  text-shadow: none;
+}
+
+.picture {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+cite {
+  bottom: 16px;
+  color: #000;
+  font-size: 50%;
+  font-style: normal;
+  position: absolute;
+  text-shadow: #fff 0 0 1px;
+}
+.reverse cite {
+  text-shadow: #000 0 0 1px;
+}
+
+.headline {
+  text-align: center;
+}
+
+.headline-right {
+  text-align: right;
+}
+
+ul.important {
+  font-size: 150%;
+}
+
+/** Slides ********************************************************************/
+.impress-on-title article.step,
+#divitis-page,
+#divitis-view,
+#divitis-field,
+.impress-on-wrong #hits,
+.impress-on-wrong2 #hits,
+.impress-on-wrong #concerns,
+.impress-on-wrong2 #concerns,
+#small,
+#semantic-machines,
+#semantic,
+#non-semantic,
+#devel-info,
+#preprocess-info,
+#manage-fields,
+#wrapper-markup,
+#manage-display,
+#create-view-mode,
+#select-ds-layout,
+#ds-layout,
+#ds-inc,
+#ds-template,
+#views-info,
+#views-view-mode,
+#views-info2,
+#views-field-wrappers,
+#views-style-settings,
+#layout-builder,
+#panels-template,
+#panels-template2,
+#panels-template3,
+#panels-theme,
+#theme-info,
+#overview {
+  opacity: 0;
+}
+.impress-on-divitis-page #divitis-page,
+.impress-on-divitis-view #divitis-view,
+.impress-on-divitis-field #divitis-field,
+.impress-on-wrong2 #wrong,
+.impress-on-small #small,
+.impress-on-semantic-machines #semantic-machines,
+.impress-on-semantic #semantic,
+.impress-on-non-semantic #non-semantic,
+.impress-on-toolbox-devel #toolbox,
+.impress-on-toolbox-devel #devel,
+.impress-on-toolbox-preprocess #toolbox,
+.impress-on-toolbox-preprocess #preprocess,
+.impress-on-toolbox-fences #toolbox,
+.impress-on-toolbox-fences #fences,
+.impress-on-toolbox-ds #toolbox,
+.impress-on-toolbox-ds #ds,
+.impress-on-toolbox-views #toolbox,
+.impress-on-toolbox-views #views,
+.impress-on-toolbox-panels #toolbox,
+.impress-on-toolbox-panels #panels,
+.impress-on-toolbox-theme #toolbox,
+.impress-on-toolbox-theme #theme,
+.impress-on-devel-info #devel-info,
+.impress-on-preprocess-info #preprocess-info,
+.impress-on-manage-fields #manage-fields,
+.impress-on-wrapper-markup #wrapper-markup,
+.impress-on-manage-display #manage-display,
+.impress-on-create-view-mode #create-view-mode,
+.impress-on-select-ds-layout #select-ds-layout,
+.impress-on-ds-layout #ds-layout,
+.impress-on-ds-inc #ds-inc,
+.impress-on-ds-template #ds-template,
+.impress-on-views-info #views-info,
+.impress-on-views-view-mode #views-view-mode,
+.impress-on-views-info2 #views-info2,
+.impress-on-views-field-wrappers #views-field-wrappers,
+.impress-on-views-style-settings #views-style-settings,
+.impress-on-layout-builder #layout-builder,
+.impress-on-panels-template #panels-template,
+.impress-on-panels-template2 #panels-template2,
+.impress-on-panels-template3 #panels-template3,
+.impress-on-panels-theme #panels-theme,
+.impress-on-theme-info #theme-info,
+.impress-on-toolbox-overview #toolbox,
+.impress-on-toolbox-overview #devel,
+.impress-on-toolbox-overview #preprocess,
+.impress-on-toolbox-overview #fences,
+.impress-on-toolbox-overview #ds,
+.impress-on-toolbox-overview #views,
+.impress-on-toolbox-overview #panels,
+.impress-on-toolbox-overview #theme,
+.impress-on-overview #overview {
+  opacity: 1;
+}
+
+.main-title {
+  font-size: 400%;
+  line-height: 1;
+  text-align: center;
+  text-shadow: #000 0 0 2px, rgba(0,0,0,.4) 0 0 30px;
+}
+.main-title > span {
+  display: block;
+}
+.main-title > .the {
+  font-size: 30%;
+  margin-bottom: -24px;
+  text-indent: -223px;
+}
+.main-title > .fight {
+  text-indent: -211px;
+}
+.main-title > .against {
+  font-size: 40%;
+  margin-top: 25px;
+  text-indent: -319px;
+}
+.main-title > .divitis {
+  margin-top: -76px;
+  text-indent: 224px;
+}
+
+#dcmouyard {
+  background-image: url(../img/dcmouyard.jpg);
+}
+#dcmouyard > h2 {
+  font-size: 140%;
+  padding-bottom: .2em;
+}
+#dcmouyard .dan {
+  display: block;
+  margin-bottom: -20px;
+  text-indent: 40px;
+}
+#dcmouyard img {
+  bottom: 32px;
+  position: absolute;
+}
+
+#number > h1 {
+  font-size: 800%;
+}
+
+#wrong > h2 {
+  font-size: 150%;
+  padding-top: 1em;
+}
+#wrong > h2 > small {
+  display: inline-block;
+  margin: 1em;
+}
+
+#concerns small {
+  display: inline-block;
+  margin: 1em;
+}
+
+#firebug {
+  background-image: url(../img/firebug.jpg);
+}
+
+#chrome-dev-tools {
+  background-image: url(../img/chrome-dev-tools.jpg);
+}
+
+#firefox-3d {
+  background-image: url(../img/firefox-3d.jpg);
+}
+
+#dom-monster {
+  background-image: url(../img/dom-monster.jpg);
+}
+
+#devel-info {
+  background-image: url(../img/devel-themer.jpg);
+}
+#devel-info > cite {
+  right: 32px;
+}
+
+#fences-info {
+  background-image: url(../img/fences.png);
+}
+#fences-info > cite {
+  top: 32px;
+}
+
+#layout-builder {
+  background-image: url(../img/layout-builder.jpg);
+}
+
+
+
+#toolbox {
+  background-image: url(../img/toolbox.jpg); /* http://www.flickr.com/photos/10687935@N04/2376359338 */
+}
+
+.impress-on-overview .step {
+  opacity: 1;
+  cursor: pointer;
+}
+#overview > h2 {
+  padding: 4.75em 0 3em;
+}
